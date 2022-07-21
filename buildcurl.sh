@@ -54,7 +54,7 @@ fi
 
 autoreconf -i
 ./configure \
-    {SSL} \
+    ${SSL} \
     --host=${ARCH_HOST} \
     --enable-static --disable-shared \
     --disable-dependency-tracking --with-zlib=${TOOLCHAIN}/sysroot/usr \
