@@ -41,7 +41,7 @@ else
     OPENSSL_DIR="${PREBUILT_OPENSSL}"
 fi
 
-if [[ -z AWS_LC ]]; then
+if [ -z ${AWS_LC+x} ]; then
     echo "Using OpenSSL"
     SSL=""
 else
