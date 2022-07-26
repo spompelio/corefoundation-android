@@ -33,7 +33,7 @@ fi
 
 # Clone
 git clone https://github.com/curl/curl.git
-cd curl && git checkout curl-7_84_0
+cd curl && git checkout curl-7_65_1
 
 if [[ -z PREBUILT_OPENSSL ]]; then
     OPENSSL_DIR=`realpath ../openssl/output`
